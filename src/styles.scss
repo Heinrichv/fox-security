@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+$theme-colors: ("primary": #ff5959,
+"secondary": #dadada);
+
+
+
+.hero {
+  background: url('./assets/images/placeholder.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@for $i from 1 through 100 {
+  .vh-#{$i} {
+    height: #{$i}vh;
+  }
+
+  .vw-#{$i} {
+    height: #{$i}vh;
+  }
+}
+
+@for $i from 1 through 10 {}
